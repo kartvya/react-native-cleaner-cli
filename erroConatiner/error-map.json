@@ -1,0 +1,13 @@
+[
+  {
+    "match": "Permission denied",
+    "suggestion": "gradlew might not be executable.",
+    "fixCommand": "chmod +x android/gradlew"
+  },
+  {
+    "match": "ninja: error: rebuilding 'build.ninja': subcommand failed",
+    "suggestion": "delete .cxx file from android/app",
+    "fixCommand": "rm -rf android/app/.cxx"
+  }
+]
+  

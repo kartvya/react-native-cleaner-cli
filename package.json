@@ -1,6 +1,6 @@
 {
-  "name": "project-cleaner-cli",
-  "version": "1.0.0",
+  "name": "react-native-cleaner-cli",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
   "description": "",
   "type": "module",
   "bin": {
-    "cleaner": "./index.js"
+    "rnclean": "./index.js"
   },
   "dependencies": {
     "chalk": "^5.4.1",

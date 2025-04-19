@@ -30,6 +30,10 @@ Command | Description
 
 Examples
 
+```bash
 rnclean --clean node_modules ios/Pods
+
 rnclean --build-android
+
 rnclean --generate-zip
+```

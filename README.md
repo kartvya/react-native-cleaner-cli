@@ -19,3 +19,17 @@ A fast and smart command-line tool to clean heavy folders, build Android release
 ```bash
 npm install -g react-native-cleaner-cli
 ```
+
+## 🚀 Usage
+
+Command | Description
+
+- clean [folders] | Clean specified folders
+- build-android | Clean & build Android release APK
+- generate-zip | Zip the project (excluding heavy folders)
+
+Examples
+
+rnclean --clean node_modules ios/Pods
+rnclean --build-android
+rnclean --generate-zip

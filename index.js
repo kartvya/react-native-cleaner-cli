@@ -31,8 +31,8 @@ if (!argv.clean && !argv["build-android"] && !argv["generate-zip"]) {
   console.log("❗ No options provided.\nHere are some things you can do:");
   console.log(`
   🧹 --clean [folders]        Clean folders like node_modules, ios/Pods, android/.gradle
-  📦 --build-android          Clean + build Android release
-  🗜️ --generate-zip           Zip the project for sharing
+  📦 --build-android           Clean + build Android release
+  🗜️ --generate-zip            Zip the project for sharing
   `);
   process.exit(0);
 }
